@@ -11,7 +11,11 @@
   .download-button {
     width: 260px;
     height: 85px;
-    line-height: 85px;
     font-size: 26px;
+  }
+}
+@media (width: 320px) and (max-height: 356px) {
+  .android {
+    display: none;
   }
 }

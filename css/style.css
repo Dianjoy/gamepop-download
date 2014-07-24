@@ -59,20 +59,23 @@ h2 {
   text-align: center;
 }
 .android {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .download-button {
   display: inline-block;
   width: 230px;
   height: 76px;
-  line-height: 76px;
   text-align: center;
   color: #FFF;
   border-radius: 4px;
   background-color: #00bef2;
   font-size: 20px;
+  padding: 15px 0;
 }
 .download-button i {
   font-size: 1.2em;
   vertical-align: text-top;
+}
+.download-button small {
+  font-size: 10px;
 }
