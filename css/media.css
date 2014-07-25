@@ -17,8 +17,10 @@
     line-height: 55px;
   }
 }
-@media (width: 320px) and (max-height: 356px) {
-  .android {
-    display: none;
-  }
+
+.ios .android {
+  display: none;
+}
+.android .ios {
+  display: none;
 }
