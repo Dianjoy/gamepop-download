@@ -70,7 +70,7 @@ h2 {
   border-radius: 4px;
   background-color: #00bef2;
   font-size: 20px;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 .disabled {
   background: #CCC;
@@ -83,4 +83,20 @@ h2 {
 }
 .download-button small {
   font-size: 10px;
+}
+#cover {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(../img/jiantou.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 146px 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display:none;
+}
+#cover.show {
+  display: block;
 }
