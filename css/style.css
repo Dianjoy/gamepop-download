@@ -3,7 +3,7 @@ html, body {
 }
 body{
   font-family:'华文细黑' ,'Lato', arial, sans-serif;
-  color: #00BEF2;
+  color: #666;
   font-size: 12px;
   line-height: 1.5em;
   background: url(../img/application.png) no-repeat center bottom;
@@ -17,13 +17,13 @@ a:hover {
   text-decoration: none;
 }
 /******header********/
-.header{
+header{
   background: #00bef2;
   height:50px;
   text-align: center;
   padding-top: 8px;
 }
-.header .back-button {
+header .back-button {
   position: absolute;
   display: block;
   line-height: 50px;
@@ -33,7 +33,7 @@ a:hover {
   top: 0;
   left: 0;
 }
-.header .back-button:active {
+header .back-button:active {
   background-color: rgba(0, 0, 0, .3);
 }
 #logo {
