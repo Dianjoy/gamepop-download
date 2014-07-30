@@ -55,7 +55,7 @@ h2 {
   font-size:15px;
   margin: 1em 0;
 }
-h2.ios,
+
 h2.android {
   margin-top: 3em;
 }
@@ -64,6 +64,9 @@ h2.android {
 }
 .android {
   margin-bottom: 20px;
+}
+h2.ios{
+  margin-top:2em;
 }
 .download-button {
   display: inline-block;

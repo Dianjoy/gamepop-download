@@ -21,6 +21,6 @@
 .ios .android {
   display: none;
 }
-.android .ios {
+.android .ios{
   display: none;
 }
